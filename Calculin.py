@@ -17,7 +17,7 @@ while True:
     except ValueError:
         print ("Ingresa un numero valido o escribi 'salir' para cerrar el programa")
         continue
-    b = float(input("escribi el segundo numero: "))
+    b = input("escribi el segundo numero: ")
     try:
         b = float(b)
     except ValueError:
